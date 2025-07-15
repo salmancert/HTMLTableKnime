@@ -1,0 +1,53 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Sales Report</title>
+</head>
+<body>
+    <h1>Q1 2024 Sales Report</h1>
+    
+    <table border="1">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Category</th>
+            <th>Sales Amount</th>
+            <th>Units Sold</th>
+            <th>Sale Date</th>
+        </tr>
+        <tr>
+            <td>P001</td>
+            <td>Laptop Pro</td>
+            <td>Electronics</td>
+            <td>1299.99</td>
+            <td>45</td>
+            <td>2024-01-15</td>
+        </tr>
+        <tr>
+            <td>P002</td>
+            <td>Wireless Mouse</td>
+            <td>Electronics</td>
+            <td>29.99</td>
+            <td>150</td>
+            <td>2024-01-20</td>
+        </tr>
+        <tr>
+            <td>P003</td>
+            <td>Office Chair</td>
+            <td>Furniture</td>
+            <td>299.50</td>
+            <td>25</td>
+            <td>2024-02-01</td>
+        </tr>
+        <tr>
+            <td>P004</td>
+            <td>Desk Lamp</td>
+            <td>Furniture</td>
+            <td>89.99</td>
+            <td>75</td>
+            <td>2024-02-15</td>
+        </tr>
+    </table>
+</body>
+</html>
