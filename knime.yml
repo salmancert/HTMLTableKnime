@@ -1,0 +1,13 @@
+name: html_table_reader
+author: Community Extension
+pixi_toml_path: pixi.toml
+extension_module: extension
+description: HTML Table Reader Extension
+long_description: |
+  This extension provides a node to read HTML tables from files, 
+  even when they are saved with .xls extension. Common when 
+  exporting tables from web applications.
+group_id: org.community.html
+version: 1.0.0
+vendor: Community Extension
+license_file: LICENSE.TXT
