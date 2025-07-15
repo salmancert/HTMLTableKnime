@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+    <entry key="created_by" type="xstring" value="5.5.0.v202410281500"/>
+    <entry key="created_by_nightly" type="xboolean" value="false"/>
+    <entry key="version" type="xstring" value="5.5.0"/>
+    <config key="explorer_view_settings">
+        <entry key="browser-id" type="xstring" value="org.knime.workbench.explorer.view.ExplorerView"/>
+        <entry key="expanded-paths" type="xstring" isnull="true" value=""/>
+    </config>
+    <config key="workflow_credentials"/>
+    <config key="annotations">
+        <entry key="data" type="xstring" value="<?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;annotation-data&gt;&#10;    &lt;node-annotation id=&quot;_knime_table_reader_0&quot;&gt;&#10;        &lt;div class=&quot;note&quot;&gt;&#10;            &lt;h1&gt;HTML Table Reader Demo&lt;/h1&gt;&#10;            &lt;p&gt;This workflow demonstrates how to use the HTML Table Reader node to extract data from HTML tables saved as .xls files.&lt;/p&gt;&#10;            &lt;p&gt;Configure the node with the path to your HTML file and run to see the extracted table data.&lt;/p&gt;&#10;        &lt;/div&gt;&#10;    &lt;/node-annotation&gt;&#10;&lt;/annotation-data&gt;"/>
+    </config>
+    <config key="nodes">
+        <config key="node_1">
+            <entry key="id" type="xint" value="1"/>
+            <entry key="node_settings_file" type="xstring" value="HTML Table Reader (#1)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeFactory"/>
+            <entry key="node_name" type="xstring" value="HTML Table Reader"/>
+            <config key="node_description">
+                <entry key="introduction" type="xstring" value="This demo shows how to use the HTML Table Reader node to extract data from HTML files."/>
+                <entry key="short_description" type="xstring" value="Demo workflow for HTML Table Reader"/>
+            </config>
+        </config>
+    </config>
+    <config key="connections"/>
+    <config key="workflow_editor_settings">
+        <entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
+        <entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>
+        <entry key="workflow.editor.gridX" type="xint" value="20"/>
+        <entry key="workflow.editor.gridY" type="xint" value="20"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.cursorPosX" type="xint" value="0"/>
+        <entry key="workflow.editor.cursorPosY" type="xint" value="0"/>
+    </config>
+</config>
