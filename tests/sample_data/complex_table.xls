@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complex Sales Report</title>
+</head>
+<body>
+    <h1>Sales Report with Multiple Tables</h1>
+    
+    <!-- First table: Summary -->
+    <h2>Summary</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Region</th>
+            <th colspan="2">Q1 2024</th>
+            <th colspan="2">Q2 2024</th>
+        </tr>
+        <tr>
+            <th>Revenue</th>
+            <th>Units</th>
+            <th>Revenue</th>
+            <th>Units</th>
+        </tr>
+        <tr>
+            <td>North</td>
+            <td>25000</td>
+            <td>150</td>
+            <td>28000</td>
+            <td>170</td>
+        </tr>
+        <tr>
+            <td>South</td>
+            <td>32000</td>
+            <td>200</td>
+            <td>35000</td>
+            <td>220</td>
+        </tr>
+    </table>
+    
+    <!-- Second table: Details -->
+    <h2>Product Details</h2>
+    <table border="1">
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>99.99</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>149.99</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Product C</td>
+            <td>199.99</td>
+            <td>20</td>
+        </tr>
+    </table>
+</body>
+</html>
