@@ -1,0 +1,29 @@
+[workspace]
+authors = ["Community Extension <community@example.com>"]
+channels = ["knime", "conda-forge"]
+name = "html-table-reader-extension"
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+version = "1.0.0"
+
+[tasks]
+test = "python tests/test_extension.py"
+
+[dependencies]
+python = "3.11.*"
+knime-extension = "5.5.*"
+knime-python-base = "5.5.*"
+pandas = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+html5lib = "*"
+pytest = "*"
+
+[feature.build.dependencies]
+python = "3.9.*"
+knime-extension-bundling = "5.5.*"
+
+[feature.build.tasks]
+build = { args = [{ "arg" = "dest", "default" = "./local-update-site" }], cmd = "python $CONDA_PREFIX/bin/build_python_extension.py . {{ dest }}" }
+
+[environments]
+build = {features = ["build"], no-default-feature = true}
