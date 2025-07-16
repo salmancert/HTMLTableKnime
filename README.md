@@ -30,7 +30,7 @@ A KNIME extension that reads HTML tables from files, even when they are saved wi
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/salmancert/HTMLTableKnime.git
-   cd html-table-reader-extension
+   cd HTMLTableKnime
    ```
 
 2. **Install dependencies**:
@@ -41,7 +41,7 @@ A KNIME extension that reads HTML tables from files, even when they are saved wi
 3. **Configure KNIME**:
    - Edit your `knime.ini` file and add:
      ```
-     -Dknime.python.extension.config=/path/to/html-table-reader-extension/config.yml
+     -Dknime.python.extension.config=/path/to/HTMLTableKnime/config.yml
      ```
 
 4. **Start KNIME** and find the node under "Community Nodes" → "IO"
