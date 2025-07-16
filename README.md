@@ -29,7 +29,7 @@ A KNIME extension that reads HTML tables from files, even when they are saved wi
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/html-table-reader-extension.git
+   git clone https://github.com/salmancert/HTMLTableKnime.git
    cd html-table-reader-extension
    ```
 
